@@ -3,11 +3,10 @@
 }
 
 body {
-    background-image: linear-gradient(180deg, #ed78d0, #f3c4e4);
+    background-image: linear-gradient(180deg, #5a6189, #b7b2e0);
     margin: 0;
     padding: 0;
-    font-size: large;
-    font-weight: bolder;
+    font-weight: bold;
 }
 
 .container {
@@ -15,6 +14,7 @@ body {
     width: 100vw;
     display: flex;
     justify-content: center;
+    font-weight: bold;
 }
 
 .content {
@@ -30,12 +30,24 @@ label,
 input,
 button {
     padding: 20px;
-    border-radius: 20px;
+    border-radius: 10px;
     border: none;
+}
+
+input {
+    background-color: #e5dce0;
 }
 
 button {
     cursor: pointer;
-    font-size: medium;
     font-weight: bold;
+}
+
+button:hover {
+    background-color: #1618ab;
+    color: #cec8e4;
+}
+
+#grade {
+    font-size: x-large;
 }

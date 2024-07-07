@@ -1,0 +1,25 @@
+.container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.form-box {
+    height: 500px;
+    width: 500px;
+    box-shadow: rgba(115, 39, 39, 0.25) 0px 50px 100px -20px,
+        rgba(210, 100, 100, 0.3) 0px 30px 60px -30px,
+        rgba(160, 8, 8, 0.35) 0px -2px 6px 0px inset,
+        rgba(215, 35, 50, 0.35) 0px 2px 6px 0px inset;
+}
+
+#user-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    gap: 30px;
+}
